@@ -1,0 +1,14 @@
+packages:
+  - '.'
+allowBuilds:
+  '@tailwindcss/oxide': true
+  esbuild: true
+onlyBuiltDependencies: lightningcss @rollup/rollup-win32-x64-msvc esbuild @tailwindcss/oxide
+supportedArchitectures:
+  os:
+    - linux
+  cpu:
+    - x64
+    - arm64
+  libc:
+    - glibc
